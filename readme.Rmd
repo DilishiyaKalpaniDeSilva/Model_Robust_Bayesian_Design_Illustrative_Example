@@ -3,7 +3,7 @@ title: "Instruction Manual"
 output: github_document
 ---
 
-### The directory structure of the project is as follows: The purpose of each script within the 'main_scripts' and 'generate_plots' folders is documented directly in the respective script itself. 
+### The directory structure of the project is as follows: (The purpose of each script within the 'main_scripts' and 'generate_plots' folders is documented directly in the respective script itself.) 
 
 ```{r, echo=FALSE, comment=NA}
 # Define the directory structure as a text string

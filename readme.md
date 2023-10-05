@@ -1,7 +1,7 @@
 Instruction Manual
 ================
 
-### The directory structure of the project is as follows: The purpose of each script within the ‘main_scripts’ and ‘generate_plots’ folders is documented directly in the respective script itself.
+### The directory structure of the project is as follows: (The purpose of each script within the ‘main_scripts’ and ‘generate_plots’ folders is documented directly in the respective script itself.)
 
 
     |-- Illustrative_Example
@@ -79,4 +79,3 @@ Instruction Manual
     2)  `plot_designs.R`
     3)  `plot_rel_eff.R`
     4)  `plot_util_coroll.R`
-"# Model_Robust_Bayesian_Design_Illustrative_Example" 
