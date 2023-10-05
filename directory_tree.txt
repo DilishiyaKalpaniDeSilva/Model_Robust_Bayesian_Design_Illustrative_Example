@@ -1,0 +1,53 @@
+|-- Illustrative_Example
+  ||-- codes
+  |  ||-- functions
+  |  |  |-- ace_manually.R
+  |  |  |-- basic_functions.R
+  |  |  |-- cal_z_knot_loc_given.R
+  |  |  |-- cal_z.R
+  |  |  |-- KLD_Laplace.R
+  |  |  |-- utility_gam.R
+  |  |  |-- utility_polynomial.R
+  |  ||-- generate_plots
+  |  |  |-- plot_designs.R
+  |  |  |-- plot_rel_eff.R
+  |  |  |-- plot_util_coroll.R
+  |  |  |-- plot_wigg_data.R
+  |  ||-- main_scripts
+  |  |  |-- main_gam_designs.R
+  |  |  |-- main_polynomial_designs.R
+  |  |  |-- main_relative_efficiency.R
+  |  |  |-- main_util_corollary.R
+  ||-- outputs
+  |  ||-- designs
+  |  |  ||-- GAM
+  |  |  |  ||-- n=12  
+  |  |  |  ||-- n=24
+  |  |  ||-- polynomial
+  |  ||-- rel_eff 
+  |  ||-- util_coroll
+  |  |  ||-- n=12
+  |  |  ||-- n=24
+  ||-- plots
+  |  |-- Ex1_coroll.jpeg
+  |  |-- Ex1_design.jpeg
+  |  |-- Ex1_rel_eff.jpeg
+  |  |-- Ex1_wigg_data.jpeg
+  ||-- sub_files
+  |  ||-- outanderror
+  |  |-- run_hpc.txt
+  |  |-- shell_gam_designs.sh
+  |  |-- shell_polynomial.sh
+  |  |-- shell_rel_eff.sh
+  |  |-- shell_util_coll.sh
+  |  |-- sub_gam_designs.sub
+  |  |-- sub_polynomial.sub
+  ||-- log_files
+  |  ||-- designs
+  |  |  ||-- GAM
+  |  |  ||-- polynomial
+  |  ||-- rel_eff
+  |  ||-- util_coroll
+  ||-- cluster
+  |-- readme.md
+  |-- readme.Rmd

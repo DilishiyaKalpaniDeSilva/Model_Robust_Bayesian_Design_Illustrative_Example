@@ -1,0 +1,85 @@
+---
+title: "Instruction Manual"
+output: github_document
+---
+
+### The directory structure of the project is as follows: The purpose of each script within the 'main_scripts' and 'generate_plots' folders is documented directly in the respective script itself. 
+
+```{r, echo=FALSE, comment=NA}
+# Define the directory structure as a text string
+directory_structure <- "
+|-- Illustrative_Example
+  ||-- codes
+  |  ||-- functions
+  |  |  |-- ace_manually.R
+  |  |  |-- basic_functions.R
+  |  |  |-- cal_z_knot_loc_given.R
+  |  |  |-- cal_z.R
+  |  |  |-- KLD_Laplace.R
+  |  |  |-- utility_gam.R
+  |  |  |-- utility_polynomial.R
+  |  ||-- generate_plots
+  |  |  |-- plot_designs.R
+  |  |  |-- plot_rel_eff.R
+  |  |  |-- plot_util_coroll.R
+  |  |  |-- plot_wigg_data.R
+  |  ||-- main_scripts
+  |  |  |-- main_gam_designs.R
+  |  |  |-- main_polynomial_designs.R
+  |  |  |-- main_relative_efficiency.R
+  |  |  |-- main_util_corollary.R
+  ||-- outputs
+  |  ||-- designs
+  |  |  ||-- GAM
+  |  |  |  ||-- n=12  
+  |  |  |  ||-- n=24
+  |  |  ||-- polynomial
+  ||-- rel_eff 
+  ||-- util_coroll
+  |  ||-- n=12
+  |  ||-- n=24
+|-- plots
+  |-- Ex1_coroll.jpeg
+  |-- Ex1_design.jpeg
+  |-- Ex1_rel_eff.jpeg
+  |-- Ex1_wigg_data.jpeg
+|-- sub_files
+  ||-- outanderror
+  |-- run_hpc.txt
+  |-- shell_gam_designs.sh
+  |-- shell_polynomial.sh
+  |-- shell_rel_eff.sh
+  |-- shell_util_coll.sh
+  |-- sub_gam_designs.sub
+  |-- sub_polynomial.sub
+  |-- sub_rel_eff.sub
+|-- log_files
+  ||-- designs
+  |  ||-- GAM
+  |  ||-- polynomial
+  ||-- rel_eff
+  ||-- util_coroll
+|-- cluster
+|-- readme.md
+|-- readme.Rmd"
+
+# Print the directory structure
+cat(directory_structure)
+```
+
+# Instructions for Running the Codes and Summarizing Results
+
+### Run the codes in the following order to regenerate the results. Note that the main scripts are executed on a High-Performance Computer (HPC).
+
+#### Running the Codes on an HPC (High-Performance Computing Cluster)
+
+1. Run the codes in an HPC according to the instructions provided in the 'run_hpc.txt' file. Alternatively, you can run the codes on your PC, but please note that it may take more time than running them on the HPC.
+
+#### Summarizing the Results
+
+2. Summarize the results by running the codes located in the 'generate_plots' folder in the following order:
+
+    i)   `plot_wigg_data.R`
+    ii)  `plot_designs.R`
+    iii) `plot_rel_eff.R`
+    iv)  `plot_util_coroll.R`

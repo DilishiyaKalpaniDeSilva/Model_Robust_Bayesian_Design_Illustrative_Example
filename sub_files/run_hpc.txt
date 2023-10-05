@@ -1,0 +1,27 @@
+%% cd ~/Dilishiya/Article_1/Illustrative_Example/sub_files/
+
+%% run the lines 3-7 in HPC to obtain GAM designs
+dos2unix sub_gam_designs.sub
+dos2unix shell_gam_designs.sh
+chmod u+x shell_gam_designs.sh
+./shell_gam_designs.sh
+
+%% run the lines 9-13 in HPC to obtain polynomial designs
+dos2unix sub_polynomial.sub
+dos2unix shell_polynomial.sh
+chmod u+x shell_polynomial.sh
+./shell_polynomial.sh
+
+%% run the lines 16-19 in HPC to obtain relative efficiencies
+dos2unix sub_rel_eff.sub
+dos2unix shell_rel_eff.sh
+chmod u+x shell_rel_eff.sh
+./shell_rel_eff.sh
+
+%% run the lines 22-26 in HPC to obtain expected utility for corollary
+dos2unix sub_gam_designs.sub
+dos2unix shell_util_coll.sh
+chmod u+x shell_util_coll.sh
+./shell_util_coll.sh
+
+%% qselect -u <username> | xargs qdel
